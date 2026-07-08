@@ -1,17 +1,79 @@
-# exemploimagemexterna
+# 🏆 Copa 2026 App
 
-A new Flutter project.
+Aplicativo Flutter simples desenvolvido para demonstrar o carregamento de imagens da internet utilizando o widget `Image.network`, com tratamento de estados de carregamento e erro.
 
-## Getting Started
+## 📱 Sobre o projeto
 
-This project is a starting point for a Flutter application.
+O app exibe uma tela única com uma imagem relacionada à Copa do Mundo 2026, carregada diretamente de uma URL externa. O projeto foi criado com fins didáticos, explorando conceitos fundamentais do Flutter como:
 
-A few resources to get you started if this is your first Flutter project:
+- Carregamento de imagens externas (`Image.network`)
+- Feedback visual durante o carregamento (`loadingBuilder`)
+- Tratamento de erros ao carregar imagem (`errorBuilder`)
+- Uso de `Card`, `Column`, `Padding` e outros widgets de layout
+- `SnackBar` para exibir mensagens temporárias ao usuário
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🚀 Tecnologias utilizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+
+## 📸 Funcionalidades
+
+- Exibição de imagem carregada via internet
+- Indicador de progresso enquanto a imagem carrega
+- Tela de erro amigável caso a imagem não carregue
+- Botão interativo que exibe um SnackBar informativo
+
+## 🛠️ Como executar o projeto
+
+### Pré-requisitos
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) instalado
+- Um emulador Android/iOS configurado ou dispositivo físico conectado
+- Android Studio ou VS Code (com extensões Flutter/Dart)
+
+### Passo a passo
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/LuizPauloSoares/copa-2026-app-flutter.git
+cd copa-2026-app-flutter
+```
+
+Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+Execute o aplicativo:
+
+```bash
+flutter run
+```
+
+## 📂 Estrutura do projeto
+
+```
+lib/
+ └── main.dart      # Contém toda a lógica e interface do app
+```
+
+## 🎯 Próximos passos (ideias de melhoria)
+
+- [ ] Adicionar múltiplas telas/navegação
+- [ ] Buscar imagens dinamicamente via API
+- [ ] Adicionar testes automatizados
+- [ ] Melhorar responsividade para tablets
+
+## 👤 Autor
+
+**Luiz Paulo Soares**
+
+- GitHub: [@LuizPauloSoares](https://github.com/LuizPauloSoares)
+- LinkedIn: [linkedin.com/in/luiz-paulo-soares](https://linkedin.com/in/luiz-paulo-soares/)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para usar, estudar e modificar.
